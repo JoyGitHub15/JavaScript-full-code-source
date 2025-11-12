@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index10.html</title>
+  <link rel="stylesheet" href="index10_Events.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+</head>
+<body onresize="windowResize()">
+<h1 id="title">javeScript is fun</h1>
+
+<button onclick="subscribe()" id="btn">subscribe</button>
+
+
+<h2 id="text"></h2>
+
+ <!-- <button id="like" onclick="like()"> <i class="fa-regular fa-thumbs-up"></i>like</button> -->
+<form action="" id="form" onkeyup=" keyPress();">
+  <label for="">Name</label>
+  <input type="text" placeholder="Enter Your Name">
+  <label for="">Email</label>
+  <input type="email" placeholder="Enter Your Email">
+  <label for="">Massage</label>
+  <textarea id="textarea" placeholder="Enter Your Massage" ></textarea>
+  <input type="submit" value="Send Massage">
+</form>
+
+  <script src="index10_Events.js"></script>
+</body>
+</html>
