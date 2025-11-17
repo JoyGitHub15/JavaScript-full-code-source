@@ -22,14 +22,14 @@ battray:{
 
 
 
-function Person(name, age, dep) {
-  this.name = name;
-  this.age = age;
-  this.dep = dep;
-}
+// function Person(name, age, dep) {
+//   this.name = name;
+//   this.age = age;
+//   this.dep = dep;
+// }
 
-const person1 = new Person("Jahirul", 25, "CSE");
-console.log(person1);
+// const person1 = new Person("Jahirul", 25, "CSE");
+// console.log(person1);
 
 // this outputs origin
 
@@ -124,4 +124,19 @@ const obj3={
 const objfinal=Object.assign({},obj1,obj2,obj3);
 
 
-const objfinal2={ ...obj1, ...obj2, ...obj3};
+// const objfinal2={ ...obj1, ...obj2, ...obj3};
+
+
+// function Person(name, age, dep) {
+//   this.name = name;
+//   this.age = age;
+//   this.dep = dep;
+// }
+
+// const person1 = new Person("Jahirul", 25, "CSE");
+
+// console.log(person1); 
+
+// const person2 = new Person("Jahirul", 25, "CSE");
+
+// console.log(person2); 
