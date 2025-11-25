@@ -4,3 +4,10 @@ body{
   color: brown;
 
 }
+
+p::selection {
+  background-color: rgb(91, 216, 19);
+  color: rgb(156, 193, 204);
+  font-size: 50px;
+
+}
