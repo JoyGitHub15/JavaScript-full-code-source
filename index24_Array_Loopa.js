@@ -94,3 +94,54 @@ const stack = [
 stack.forEach(info => {
   console.log(`Want to learn ${info.name}? Learn this ${info.property}`);
 });
+
+
+
+//Normal for Loop
+
+console.log("**(Normal for Loop)**");
+for (let values=0;values<fruits.length;values++){
+
+  console.log(values+" : "+fruits[values]);
+
+}
+
+
+//for in Loop 
+console.log("**(for in Loop)**")
+for (const key in fruits) {
+  console.log(key,":",fruits[key]);
+}
+
+//for of Lopp 
+
+console.log("**(for of Lopp)**")
+
+for (const val of fruits) {
+  console.log(val);
+}
+// for of Loop index add other way
+console.log("**(for of Loop index add other way)** ");
+
+for(const [index,val] of fruits.entries()){
+  console.log(index+" : "+val);
+}
+
+//for Each Loop 
+
+console.log("**(for Each Loop normal function used)** ");
+
+fruits.forEach(function(fruit,index){
+  console.log(fruit);
+});
+
+console.log("**(for Each Loop arrow function used)** ");
+
+fruits.forEach(fruits=>{
+console.log(fruits);
+});
+
+console.log("**(for Each Loop arrow function used and add index)** ");
+fruits.forEach((fruits,index)=>{
+console.log(index+":"+fruits);
+});
