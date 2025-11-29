@@ -162,3 +162,6 @@ const myTotal = numbers.reduce((acc, curValue) => {
 
 const coursePrice = stack.reduce((acc, course) => acc + course.price, 0);
 console.log(coursePrice);
+
+
+
