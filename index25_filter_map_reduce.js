@@ -83,7 +83,7 @@ for(const [index,val] of fruits.entries()){
 console.log("**(for Each Loop normal function used)** ");
 
 fruits.forEach(function(fruit,index){
-  console.log(fruit);
+  console.log(fruit,index);
 });
 
 console.log("**(for Each Loop arrow function used)** ");
@@ -162,6 +162,3 @@ const myTotal = numbers.reduce((acc, curValue) => {
 
 const coursePrice = stack.reduce((acc, course) => acc + course.price, 0);
 console.log(coursePrice);
-
-
-
